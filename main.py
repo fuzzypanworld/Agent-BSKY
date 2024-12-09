@@ -33,8 +33,8 @@ class BskyAINewsBot:
         self.last_article = None
         
         # Configure APIs
-        self.news_api_key = os.getenv('NEWS_API_KEY', '8ed5c4cbc1b14e08a5304ff4ab235179')
-        genai.configure(api_key=os.getenv('GEMINI_API_KEY', 'AIzaSyCXijVmfBPq2e4p8Ouj6KyjKw0lWOjwb7w'))
+        self.news_api_key = os.getenv('NEWS_API_KEY', '')
+        genai.configure(api_key=os.getenv('GEMINI_API_KEY', ''))
         self.model = genai.GenerativeModel('gemini-1.5-flash')
         
         # AI topics to track
@@ -389,7 +389,7 @@ class BskyAINewsBot:
             sys.exit(1)
 
 def main():
-    bot = BskyAINewsBot('learninwithak.bsky.social', 'p7za-ej2v-uq2k-qjzo')
+    bot = BskyAINewsBot('', '')
     bot.start()
 
 if __name__ == "__main__":
