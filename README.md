@@ -20,8 +20,7 @@ The Bsky AI News Bot is a Python-based bot that integrates with Bluesky Social t
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/bsky-ai-news-bot.git
-   cd bsky-ai-news-bot
+  git clone https://github.com/fuzzypanworld/Agent-BSKY.git
    ```
 2. Install dependencies
 3. Set up environment variables:
