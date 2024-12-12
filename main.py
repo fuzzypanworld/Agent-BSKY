@@ -41,7 +41,9 @@ class BskyAINewsBot:
         ]
         
         # Configure APIs
-       
+                # Add API key for GEMINI and NEWS API
+        self.news_api_key = os.getenv('NEWS_API_KEY')
+        genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
         self.model = genai.GenerativeModel('gemini-1.5-flash')
         
         # AI topics to track
