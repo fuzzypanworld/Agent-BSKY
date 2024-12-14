@@ -2595,3 +2595,59 @@
 2024-12-12 22:26:51,743 - INFO - Bot shutdown complete
 2024-12-12 22:26:51,743 - INFO - Cleanup complete. Bot shutting down.
 2024-12-12 22:27:17,827 - INFO - Authenticated with Bluesky
+2024-12-13 21:13:50,566 - ERROR - Authentication failed: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.server.createSession
+2024-12-13 21:13:50,566 - ERROR - Bot error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.server.createSession
+2024-12-13 21:13:50,566 - INFO - Shutting down bot...
+2024-12-13 21:13:50,566 - INFO - Bot shutdown complete
+2024-12-13 21:13:50,574 - INFO - Cleanup complete. Bot shutting down.
+2024-12-13 21:20:28,731 - ERROR - Authentication failed: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.server.createSession
+2024-12-13 21:20:28,731 - ERROR - Bot error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.server.createSession
+2024-12-13 21:20:28,731 - INFO - Shutting down bot...
+2024-12-13 21:20:28,731 - INFO - Bot shutdown complete
+2024-12-13 21:20:28,739 - INFO - Cleanup complete. Bot shutting down.
+2024-12-13 21:20:42,934 - ERROR - Authentication failed: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.server.createSession
+2024-12-13 21:20:42,934 - ERROR - Bot error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.server.createSession
+2024-12-13 21:20:42,934 - INFO - Shutting down bot...
+2024-12-13 21:20:42,939 - INFO - Bot shutdown complete
+2024-12-13 21:20:42,939 - INFO - Cleanup complete. Bot shutting down.
+2024-12-14 09:52:29,236 - ERROR - Authentication failed: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.server.createSession
+2024-12-14 09:52:29,245 - ERROR - Bot error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.server.createSession
+2024-12-14 09:52:29,245 - INFO - Shutting down bot...
+2024-12-14 09:52:29,245 - INFO - Bot shutdown complete
+2024-12-14 09:52:29,245 - INFO - Cleanup complete. Bot shutting down.
+2024-12-14 09:55:13,290 - INFO - Authenticated with Bluesky
+2024-12-14 09:55:13,624 - ERROR - News fetch error: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=%22Claude%22+OR+%22GPT-4%22+OR+%22ChatGPT%22+OR+%22Gemini%22+OR+%22Copilot%22+OR+%22Grok%22+OR+%22Anthropic%22+OR+%22OpenAI%22+OR+%22Microsoft%22+OR+%22Google%22+OR+%22xAI%22+OR+%22AI+regulation%22+OR+%22AI+ethics%22+OR+%22machine+learning%22&sortBy=publishedAt&language=en&pageSize=10
+2024-12-14 09:55:16,328 - WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2024-12-14 09:55:20,256 - WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2024-12-14 09:55:25,437 - WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+2024-12-14 09:55:25,438 - WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+2024-12-14 09:55:25,438 - ERROR - Post generation error: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2024-12-14 09:56:07,023 - INFO - Shutting down...
+2024-12-14 09:56:17,042 - INFO - Shutting down...
+2024-12-14 09:56:28,008 - INFO - Authenticated with Bluesky
+2024-12-14 10:28:47,839 - ERROR - Error fetching notifications: HTTPSConnectionPool(host='bsky.social', port=443): Max retries exceeded with url: /xrpc/app.bsky.notification.listNotifications?limit=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000261BDBADF10>: Failed to resolve 'bsky.social' ([Errno 11001] getaddrinfo failed)"))
+2024-12-14 10:29:47,859 - ERROR - Error fetching notifications: HTTPSConnectionPool(host='bsky.social', port=443): Max retries exceeded with url: /xrpc/app.bsky.notification.listNotifications?limit=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000261BDBD6B10>: Failed to resolve 'bsky.social' ([Errno 11001] getaddrinfo failed)"))
+2024-12-14 10:32:06,448 - INFO - Shutting down...
+2024-12-14 10:32:21,474 - INFO - Cleanup complete
+2024-12-14 10:32:21,477 - INFO - Shutting down bot...
+2024-12-14 10:32:36,496 - INFO - Bot shutdown complete
+2024-12-14 10:32:36,500 - INFO - Cleanup complete. Bot shutting down.
+2024-12-14 10:36:17,643 - INFO - Authenticated with Bluesky
+2024-12-14 10:56:04,457 - ERROR - Error fetching notifications: HTTPSConnectionPool(host='bsky.social', port=443): Max retries exceeded with url: /xrpc/app.bsky.notification.listNotifications?limit=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000205640AE330>: Failed to resolve 'bsky.social' ([Errno 11001] getaddrinfo failed)"))
+2024-12-14 10:57:04,572 - ERROR - Error fetching notifications: HTTPSConnectionPool(host='bsky.social', port=443): Max retries exceeded with url: /xrpc/app.bsky.notification.listNotifications?limit=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000205640D3080>: Failed to resolve 'bsky.social' ([Errno 11001] getaddrinfo failed)"))
+2024-12-14 10:58:04,584 - ERROR - Error fetching notifications: HTTPSConnectionPool(host='bsky.social', port=443): Max retries exceeded with url: /xrpc/app.bsky.notification.listNotifications?limit=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000205640D2F00>: Failed to resolve 'bsky.social' ([Errno 11001] getaddrinfo failed)"))
+2024-12-14 10:59:04,592 - ERROR - Error fetching notifications: HTTPSConnectionPool(host='bsky.social', port=443): Max retries exceeded with url: /xrpc/app.bsky.notification.listNotifications?limit=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000205640D3DD0>: Failed to resolve 'bsky.social' ([Errno 11001] getaddrinfo failed)"))
+2024-12-14 10:59:18,162 - INFO - Shutting down...
+2024-12-14 10:59:33,189 - INFO - Cleanup complete
+2024-12-14 10:59:33,189 - INFO - Shutting down bot...
+2024-12-14 10:59:48,214 - INFO - Bot shutdown complete
+2024-12-14 10:59:48,214 - INFO - Cleanup complete. Bot shutting down.
+2024-12-14 11:00:15,555 - ERROR - Authentication failed: HTTPSConnectionPool(host='bsky.social', port=443): Max retries exceeded with url: /xrpc/com.atproto.server.createSession (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001928F186720>: Failed to resolve 'bsky.social' ([Errno 11001] getaddrinfo failed)"))
+2024-12-14 11:00:15,555 - ERROR - Bot error: HTTPSConnectionPool(host='bsky.social', port=443): Max retries exceeded with url: /xrpc/com.atproto.server.createSession (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001928F186720>: Failed to resolve 'bsky.social' ([Errno 11001] getaddrinfo failed)"))
+2024-12-14 11:00:15,555 - INFO - Shutting down bot...
+2024-12-14 11:00:15,555 - INFO - Bot shutdown complete
+2024-12-14 11:00:15,555 - INFO - Cleanup complete. Bot shutting down.

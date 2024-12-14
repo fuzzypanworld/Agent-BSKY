@@ -42,8 +42,8 @@ class BskyAINewsBot:
         
         # Configure APIs
                 # Add API key for GEMINI and NEWS API
-        self.news_api_key = os.getenv('NEWS_API_KEY')
-        genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
+        self.news_api_key = '8ed5c4cbc1b14e08a5304ff4ab235179'
+        genai.configure(api_key='AIzaSyCXijVmfBPq2e4p8Ouj6KyjKw0lWOjwb7w')
         self.model = genai.GenerativeModel('gemini-1.5-flash')
         
         # AI topics to track
@@ -450,8 +450,8 @@ def main():
         print("Version: 1.1.0\n")
         
         # Get credentials from environment variables or use defaults
-        handle = os.getenv('BSKY_HANDLE',)
-        app_password = os.getenv('BSKY_PASSWORD',)
+        handle = 'learninwithak.bsky.social'
+        app_password = 'Atharva5454'
         
         # Initialize and start the bot
         bot = BskyAINewsBot(handle, app_password)

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluesky Stats Dashboard</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <style>
+        :root {
+            --primary: #0066ff;
+            --background: #f0f2f5;
+            --card-bg: #ffffff;
+            --text: #1a1a1a;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: var(--background);
+            color: var(--text);
+        }
+
+        .header {
+            background: var(--primary);
+            color: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 10px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .stat-value {
+            font-size: 2rem;
+            font-weight: bold;
+            margin: 0.5rem 0;
+            color: var(--primary);
+        }
+
+        .chart-container {
+            margin-bottom: 2rem;
+        }
+
+        .post-card {
+            border-left: 4px solid var(--primary);
+            padding: 1rem;
+            margin: 1rem 0;
+            background: var(--background);
+        }
+
+        .tag-cloud {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .tag {
+            background: var(--primary);
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 15px;
+            font-size: 0.9rem;
+        }
+
+        .refresh-button {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .refresh-button:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+        }
+
+        .error {
+            background: #fee;
+            border: 1px solid #faa;
+            padding: 1rem;
+            border-radius: 5px;
+            margin: 1rem 0;
+            color: #c00;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <h1>Bluesky Stats Dashboard</h1>
+            <p>Handle: <span id="profileHandle">Loading...</span></p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="errorContainer" style="display: none;" class="error"></div>
+
+        <div class="grid">
+            <div class="card">
+                <h3>Followers</h3>
+                <div class="stat-value" id="followerCount">-</div>
+            </div>
+            <div class="card">
+                <h3>Following</h3>
+                <div class="stat-value" id="followingCount">-</div>
+            </div>
+            <div class="card">
+                <h3>Total Posts</h3>
+                <div class="stat-value" id="postCount">-</div>
+            </div>
+            <div class="card">
+                <h3>Engagement Rate</h3>
+                <div class="stat-value" id="engagementRate">-</div>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <h3>Post Timing Distribution (Last 24h)</h3>
+                <div class="chart-container">
+                    <canvas id="postTimingChart"></canvas>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Popular Posts</h3>
+                <div id="popularPosts"></div>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <h3>Top Hashtags</h3>
+                <div id="hashtagCloud" class="tag-cloud"></div>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin: 2rem 0;">
+            <p>Last updated: <span id="lastUpdated">Never</span></p>
+            <button onclick="refreshStats()" class="refresh-button" id="refreshButton">
+                Refresh Stats
+            </button>
+        </div>
+    </div>
+
+    <script>
+        let postTimingChart = null;
+
+        async function fetchStats() {
+            const button = document.getElementById('refreshButton');
+            const errorContainer = document.getElementById('errorContainer');
+            button.disabled = true;
+            errorContainer.style.display = 'none';
+
+            try {
+                const response = await fetch('/api/stats');
+                if (!response.ok) throw new Error('Failed to fetch stats');
+                const stats = await response.json();
+                updateDashboard(stats);
+            } catch (error) {
+                console.error('Error:', error);
+                errorContainer.textContent = 'Failed to fetch statistics. Please try again later.';
+                errorContainer.style.display = 'block';
+            } finally {
+                button.disabled = false;
+            }
+        }
+
+        function updateDashboard(stats) {
+            // Update profile info
+            document.getElementById('profileHandle').textContent = stats.profile.handle;
+            document.getElementById('followerCount').textContent = stats.profile.followers.toLocaleString();
+            document.getElementById('followingCount').textContent = stats.profile.following.toLocaleString();
+            document.getElementById('postCount').textContent = stats.profile.posts.toLocaleString();
+            document.getElementById('engagementRate').textContent = stats.posts.engagement_rate;
+
+            // Update timing chart
+            updateTimingChart(stats.posts.hourly_distribution);
+
+            // Update popular posts
+            const postsContainer = document.getElementById('popularPosts');
+            postsContainer.innerHTML = stats.posts.popular_posts.map(post => `
+                <div class="post-card">
+                    <p>${post.text}</p>
+                    <small>❤️ ${post.likes} | 🔁 ${post.reposts}</small>
+                </div>
+            `).join('');
+
+            // Update hashtags
+            const hashtagCloud = document.getElementById('hashtagCloud');
+            hashtagCloud.innerHTML = Object.entries(stats.posts.hashtags)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 10)
+                .map(([tag, count]) => `
+                    <span class="tag">${tag} (${count})</span>
+                `).join('');
+
+            // Update timestamp
+            document.getElementById('lastUpdated').textContent = stats.timestamp;
+        }
+
+        function updateTimingChart(data) {
+            const ctx = document.getElementById('postTimingChart').getContext('2d');
+            
+            if (postTimingChart) {
+                postTimingChart.destroy();
+            }
+
+            postTimingChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: Array.from({length: 24}, (_, i) => `${i}:00`),
+                    datasets: [{
+                        label: 'Posts',
+                        data: data,
+                        backgroundColor: '#0066ff',
+                        borderRadius: 5
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: {
+                                stepSize: 1
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        async function refreshStats() {
+            await fetchStats();
+        }
+
+        // Initial load
+        fetchStats();
+    </script>
+</body>
+</html>
