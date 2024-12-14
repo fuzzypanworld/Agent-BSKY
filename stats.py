@@ -154,8 +154,8 @@ def main():
     if not handle or not password:
         print(f"{Fore.RED}Error: Please set BSKY_HANDLE and BSKY_PASSWORD environment variables{Style.RESET_ALL}")
         print("\nExample:")
-        print("set BSKY_HANDLE=yourusername.bsky.social")
-        print("set BSKY_PASSWORD=your-app-password")
+        print("set BSKY_HANDLE=learninwithak.bsky.social")
+        print("set BSKY_PASSWORD=")
         return
 
     try:

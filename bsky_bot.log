@@ -1,1 +1,51 @@
 2024-12-14 12:43:14,031 - INFO - Authenticated with Bluesky
+2024-12-14 13:12:29,154 - INFO - Shutting down...
+2024-12-14 13:12:46,298 - INFO - Authenticated with Bluesky
+2024-12-14 13:32:21,998 - INFO - Authenticated with Bluesky
+2024-12-14 15:10:14,437 - ERROR - Error fetching notifications: HTTPSConnectionPool(host='bsky.social', port=443): Max retries exceeded with url: /xrpc/app.bsky.notification.listNotifications?limit=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000162142ADEB0>: Failed to resolve 'bsky.social' ([Errno 11001] getaddrinfo failed)"))
+2024-12-14 15:36:54,280 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-14 15:37:56,343 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-14 15:38:57,722 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-14 15:39:58,771 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-14 15:40:59,531 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-14 15:42:00,652 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-14 15:43:01,326 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-14 15:44:02,512 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-14 15:45:03,719 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-14 15:46:04,918 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-14 15:46:26,398 - ERROR - Post generation error: Timeout of 600.0s exceeded, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.250.195.234:443: tcp handshaker shutdown
+2024-12-14 15:46:27,367 - ERROR - Post creation error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+2024-12-14 15:47:06,905 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-14 15:48:08,492 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-14 15:49:09,434 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-14 15:50:10,972 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-14 15:51:12,041 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-14 15:52:13,178 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-14 15:53:14,452 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-14 15:54:15,510 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-14 15:55:23,608 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-14 15:56:25,057 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-14 15:57:26,458 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-14 15:58:27,148 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-14 15:59:28,035 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-14 16:00:28,899 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-14 16:01:29,929 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-14 16:01:32,280 - INFO - Shutting down...
+2024-12-14 16:01:47,313 - INFO - Cleanup complete
+2024-12-14 16:01:47,313 - INFO - Shutting down bot...
+2024-12-14 16:02:02,356 - INFO - Bot shutdown complete
+2024-12-14 16:02:02,356 - INFO - Cleanup complete. Bot shutting down.
+2024-12-14 16:32:29,718 - INFO - Authenticated with Bluesky
+2024-12-14 16:32:31,276 - ERROR - News fetch error: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=%22Claude%22+OR+%22GPT-4%22+OR+%22ChatGPT%22+OR+%22Gemini%22+OR+%22Copilot%22+OR+%22Grok%22+OR+%22Anthropic%22+OR+%22OpenAI%22+OR+%22Microsoft%22+OR+%22Google%22+OR+%22xAI%22+OR+%22AI+regulation%22+OR+%22AI+ethics%22+OR+%22machine+learning%22&sortBy=publishedAt&language=en&pageSize=10
+2024-12-14 16:32:32,743 - WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2024-12-14 16:32:36,790 - WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2024-12-14 16:32:41,832 - WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+2024-12-14 16:32:41,832 - WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+2024-12-14 16:32:41,832 - ERROR - Post generation error: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2024-12-14 16:33:56,345 - INFO - Shutting down...
+2024-12-14 16:34:09,647 - INFO - Authenticated with Bluesky
+2024-12-14 17:28:13,040 - ERROR - Error fetching notifications: HTTPSConnectionPool(host='bsky.social', port=443): Max retries exceeded with url: /xrpc/app.bsky.notification.listNotifications?limit=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001C4172ADBE0>: Failed to resolve 'bsky.social' ([Errno 11001] getaddrinfo failed)"))
