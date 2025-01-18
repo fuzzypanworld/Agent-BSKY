@@ -34,16 +34,15 @@ class BskyAINewsBot:
         
         # Prompt templates for varied posts
         self.post_prompts = [
-            "Write a creative post about AI innovation. Discuss emerging trends and practical tips.",
-            "Share insights about how AI is transforming various industries. Keep it concise and engaging.",
-            "Explore the potential of AI in solving real-world problems. Provide a unique perspective.",
-            "Discuss the latest breakthroughs in artificial intelligence. Make it interesting and under 280 characters."
+            "Dive into the world of AI creativity—share tools or projects redefining innovation. Focus on fresh ideas and practical examples."  
+            "Highlight an inspiring AI success story. Discuss how it’s shaping a brighter future for industries or everyday life."  
+"Explore how AI is empowering startups and small businesses. Offer tips on leveraging AI for growth and efficiency."  
+ "Simplify a complex AI concept in an engaging way. Make it easy to understand and relatable for your audience."  
         ]
         
         # Configure APIs
-                # Add API key for GEMINI and NEWS API
-        self.news_api_key = '8ed5c4cbc1b14e08a5304ff4ab235179'
-        genai.configure(api_key='AIzaSyCXijVmfBPq2e4p8Ouj6KyjKw0lWOjwb7w')
+        self.news_api_key = '' # Add API key for NEWS API
+        genai.configure(api_key='') # Add API key for GEMINI
         self.model = genai.GenerativeModel('gemini-1.5-flash')
         
         # AI topics to track
@@ -122,7 +121,7 @@ class BskyAINewsBot:
                     'sortBy': 'publishedAt',
                     'language': 'en',
                     'apiKey': self.news_api_key,
-                    'pageSize': 10
+                    'pageSize': 100
                 }
             )
             response.raise_for_status()
@@ -268,6 +267,13 @@ class BskyAINewsBot:
             return "I couldn't find any recent news about that topic. Try asking about something else?"
         
         main_article = articles[0]
+        title = main_article.get('title', 'No title available')
+        description = main_article.get('description', 'No description available')
+        
+        response = f"📰 {title}\n\n{description}"
+        
+        return response
+            
         response = f"📰 {main_article['title']}\n\n"
         
         if main_article.get('description'):
@@ -449,9 +455,9 @@ def main():
         print("AI-powered news aggregation and interaction bot")
         print("Version: 1.1.0\n")
         
-        # Get credentials from environment variables or use defaults
-        handle = 'learninwithak.bsky.social'
-        app_password = 'Atharva5454'
+        # Add your Bluesky handle and app password
+        handle = '' 
+        app_password = ''
         
         # Initialize and start the bot
         bot = BskyAINewsBot(handle, app_password)

@@ -49,3 +49,373 @@
 2024-12-14 16:33:56,345 - INFO - Shutting down...
 2024-12-14 16:34:09,647 - INFO - Authenticated with Bluesky
 2024-12-14 17:28:13,040 - ERROR - Error fetching notifications: HTTPSConnectionPool(host='bsky.social', port=443): Max retries exceeded with url: /xrpc/app.bsky.notification.listNotifications?limit=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001C4172ADBE0>: Failed to resolve 'bsky.social' ([Errno 11001] getaddrinfo failed)"))
+2024-12-14 21:21:37,818 - ERROR - Error fetching notifications: HTTPSConnectionPool(host='bsky.social', port=443): Max retries exceeded with url: /xrpc/app.bsky.notification.listNotifications?limit=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001C4172D3110>: Failed to resolve 'bsky.social' ([Errno 11001] getaddrinfo failed)"))
+2024-12-14 22:31:54,939 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-14 22:33:07,932 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-14 22:33:56,722 - INFO - Shutting down...
+2024-12-14 22:34:07,993 - INFO - Cleanup complete
+2024-12-14 22:34:07,993 - INFO - Shutting down bot...
+2024-12-14 22:34:15,408 - INFO - Bot shutdown complete
+2024-12-14 22:34:15,415 - INFO - Cleanup complete. Bot shutting down.
+2024-12-14 22:34:28,212 - INFO - Authenticated with Bluesky
+2024-12-14 23:04:04,775 - INFO - Shutting down...
+2024-12-14 23:04:19,834 - INFO - Cleanup complete
+2024-12-14 23:04:19,835 - INFO - Shutting down bot...
+2024-12-14 23:04:34,863 - INFO - Bot shutdown complete
+2024-12-14 23:04:34,863 - INFO - Cleanup complete. Bot shutting down.
+2024-12-14 23:05:35,706 - INFO - Authenticated with Bluesky
+2024-12-14 23:12:28,137 - ERROR - Error fetching notifications: HTTPSConnectionPool(host='bsky.social', port=443): Max retries exceeded with url: /xrpc/app.bsky.notification.listNotifications?limit=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000016DA10AD250>: Failed to resolve 'bsky.social' ([Errno 11001] getaddrinfo failed)"))
+2024-12-15 10:37:12,896 - INFO - Authenticated with Bluesky
+2024-12-15 11:17:58,187 - INFO - Authenticated with Bluesky
+2024-12-15 11:18:05,731 - INFO - Shutting down...
+2024-12-15 11:18:20,742 - INFO - Cleanup complete
+2024-12-15 11:18:20,742 - INFO - Shutting down bot...
+2024-12-15 11:18:35,776 - INFO - Bot shutdown complete
+2024-12-15 11:18:35,776 - INFO - Cleanup complete. Bot shutting down.
+2024-12-15 11:19:22,747 - INFO - Authenticated with Bluesky
+2024-12-15 12:02:51,770 - ERROR - Error fetching notifications: HTTPSConnectionPool(host='bsky.social', port=443): Max retries exceeded with url: /xrpc/app.bsky.notification.listNotifications?limit=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000237099AD9D0>: Failed to resolve 'bsky.social' ([Errno 11001] getaddrinfo failed)"))
+2024-12-15 12:04:20,370 - ERROR - News fetch error: HTTPSConnectionPool(host='newsapi.org', port=443): Max retries exceeded with url: /v2/everything?q=%22Claude%22+OR+%22GPT-4%22+OR+%22ChatGPT%22+OR+%22Gemini%22+OR+%22Copilot%22+OR+%22Grok%22+OR+%22Anthropic%22+OR+%22OpenAI%22+OR+%22Microsoft%22+OR+%22Google%22+OR+%22xAI%22+OR+%22AI+regulation%22+OR+%22AI+ethics%22+OR+%22machine+learning%22&sortBy=publishedAt&language=en&apiKey=8ed5c4cbc1b14e08a5304ff4ab235179&pageSize=10 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000237099D3CE0>: Failed to resolve 'newsapi.org' ([Errno 11001] getaddrinfo failed)"))
+2024-12-15 12:23:30,475 - ERROR - Error fetching notifications: HTTPSConnectionPool(host='bsky.social', port=443): Max retries exceeded with url: /xrpc/app.bsky.notification.listNotifications?limit=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000023709E0CF20>: Failed to resolve 'bsky.social' ([Errno 11001] getaddrinfo failed)"))
+2024-12-15 13:24:13,400 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 13:25:17,244 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 13:26:17,937 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 13:27:18,622 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 13:28:10,152 - INFO - Shutting down...
+2024-12-15 13:28:20,174 - INFO - Cleanup complete
+2024-12-15 13:28:20,174 - INFO - Shutting down bot...
+2024-12-15 13:28:30,198 - INFO - Bot shutdown complete
+2024-12-15 13:28:30,198 - INFO - Cleanup complete. Bot shutting down.
+2024-12-15 13:29:56,748 - INFO - Authenticated with Bluesky
+2024-12-15 13:33:56,004 - INFO - Shutting down...
+2024-12-15 13:34:06,017 - INFO - Cleanup complete
+2024-12-15 13:34:06,017 - INFO - Shutting down bot...
+2024-12-15 13:34:16,046 - INFO - Bot shutdown complete
+2024-12-15 13:34:16,046 - INFO - Cleanup complete. Bot shutting down.
+2024-12-15 13:36:13,995 - INFO - Authenticated with Bluesky
+2024-12-15 13:38:39,689 - INFO - Authenticated with Bluesky
+2024-12-15 15:39:07,573 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 15:40:08,347 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 15:41:09,046 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 15:42:09,725 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 15:43:10,715 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 15:47:38,090 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 15:48:39,058 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 15:49:39,752 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 15:50:40,418 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 15:51:41,110 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 15:52:41,815 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 15:53:42,559 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 15:54:43,257 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 15:55:43,975 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 15:56:44,756 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 15:57:45,445 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 15:58:44,825 - ERROR - Post creation error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+2024-12-15 15:58:45,382 - ERROR - News fetch error: can only concatenate str (not "NoneType") to str
+2024-12-15 15:58:46,135 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 15:59:46,997 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 16:00:47,894 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 16:01:49,200 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 16:02:50,310 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 16:03:51,460 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 16:04:52,491 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 16:05:53,650 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 16:06:54,633 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 16:07:55,834 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 16:08:56,533 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 16:09:57,273 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 16:10:58,338 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 16:11:59,694 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 16:13:01,097 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 16:14:01,967 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 16:15:03,485 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 16:16:04,682 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 16:17:05,675 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 16:18:06,764 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 18:48:45,692 - ERROR - Error fetching notifications: HTTPSConnectionPool(host='bsky.social', port=443): Max retries exceeded with url: /xrpc/app.bsky.notification.listNotifications?limit=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012FE12D2870>: Failed to resolve 'bsky.social' ([Errno 11001] getaddrinfo failed)"))
+2024-12-15 18:49:46,748 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 18:53:12,985 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 18:54:13,633 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 18:55:15,000 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 18:56:16,115 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 18:57:16,785 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 18:57:27,194 - ERROR - Post creation error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+2024-12-15 18:57:27,642 - ERROR - Post creation error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+2024-12-15 18:58:17,436 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 18:59:18,106 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 19:00:19,534 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 19:01:21,086 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 19:02:22,577 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 19:03:26,044 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 19:04:26,758 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 19:05:27,787 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 19:06:28,450 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 19:07:29,109 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 19:08:29,765 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 19:09:30,985 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 19:10:31,772 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 19:11:32,425 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 19:12:33,086 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 19:13:33,941 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 19:14:34,778 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 19:15:35,771 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 19:16:36,440 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 19:17:39,886 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 19:18:41,187 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 19:19:44,175 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 19:59:34,153 - ERROR - Error fetching notifications: HTTPSConnectionPool(host='bsky.social', port=443): Max retries exceeded with url: /xrpc/app.bsky.notification.listNotifications?limit=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012FE12D3380>: Failed to resolve 'bsky.social' ([Errno 11001] getaddrinfo failed)"))
+2024-12-15 20:00:38,138 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:01:22,757 - ERROR - News fetch error: can only concatenate str (not "NoneType") to str
+2024-12-15 20:01:22,887 - ERROR - Post creation error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+2024-12-15 20:01:38,813 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:02:40,067 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:03:41,169 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:04:41,879 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:05:43,110 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:06:44,000 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:07:46,039 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:08:47,171 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:09:48,975 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:10:49,773 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:11:50,465 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:23:11,993 - ERROR - Error fetching notifications: HTTPSConnectionPool(host='bsky.social', port=443): Max retries exceeded with url: /xrpc/app.bsky.notification.listNotifications?limit=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012FE160D1C0>: Failed to resolve 'bsky.social' ([Errno 11001] getaddrinfo failed)"))
+2024-12-15 20:24:16,236 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:25:17,104 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:26:17,983 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:27:19,251 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:28:20,169 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:29:21,726 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:30:22,745 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:31:23,417 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:32:24,513 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:33:25,497 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:34:26,373 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:35:27,513 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:36:28,368 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:37:29,684 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:37:32,241 - ERROR - Post creation error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+2024-12-15 20:37:32,242 - ERROR - Post creation error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+2024-12-15 20:38:30,343 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:39:32,466 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:40:33,145 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:41:34,227 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:42:34,968 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:43:35,864 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:44:36,774 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:45:38,127 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:46:40,213 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:47:40,889 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:48:42,137 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:49:44,830 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:50:45,835 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:53:27,891 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:54:29,091 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:55:29,893 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:56:30,910 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:57:32,481 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:58:33,726 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 20:59:34,435 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-15 21:00:35,101 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 02:11:30,059 - ERROR - Error fetching notifications: HTTPSConnectionPool(host='bsky.social', port=443): Max retries exceeded with url: /xrpc/app.bsky.notification.listNotifications?limit=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012FE12D2CF0>: Failed to resolve 'bsky.social' ([Errno 11001] getaddrinfo failed)"))
+2024-12-16 02:11:30,107 - ERROR - News fetch error: HTTPSConnectionPool(host='newsapi.org', port=443): Max retries exceeded with url: /v2/everything?q=%22Claude%22+OR+%22GPT-4%22+OR+%22ChatGPT%22+OR+%22Gemini%22+OR+%22Copilot%22+OR+%22Grok%22+OR+%22Anthropic%22+OR+%22OpenAI%22+OR+%22Microsoft%22+OR+%22Google%22+OR+%22xAI%22+OR+%22AI+regulation%22+OR+%22AI+ethics%22+OR+%22machine+learning%22&sortBy=publishedAt&language=en&apiKey=8ed5c4cbc1b14e08a5304ff4ab235179&pageSize=24 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012FE12AE570>: Failed to resolve 'newsapi.org' ([Errno 11001] getaddrinfo failed)"))
+2024-12-16 02:11:36,313 - ERROR - Post creation error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+2024-12-16 15:13:48,005 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:14:48,985 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:15:51,444 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:16:52,563 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:17:54,057 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:18:54,804 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:19:55,460 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:20:56,137 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:21:56,807 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:22:57,505 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:23:58,167 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:24:58,848 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:25:59,512 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:27:00,221 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:28:00,884 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:29:01,547 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:30:02,229 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:31:02,949 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:32:03,682 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:33:04,350 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:34:05,039 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:35:05,736 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:36:06,615 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:37:07,299 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:38:07,968 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:39:08,647 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:40:09,353 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:41:10,615 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:42:11,282 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:42:47,927 - ERROR - News fetch error: can only concatenate str (not "NoneType") to str
+2024-12-16 15:43:11,944 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:43:14,431 - ERROR - Post creation error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+2024-12-16 15:44:12,641 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:45:13,317 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:46:14,003 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:47:14,675 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:48:15,357 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:49:16,034 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:50:17,751 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:51:18,423 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:52:19,087 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:53:19,762 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:54:20,804 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:55:22,033 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:56:23,393 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:57:24,969 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:58:26,378 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 15:59:27,975 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 16:00:29,176 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 16:01:29,886 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 16:02:30,560 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 16:03:31,888 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 16:04:33,103 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 16:05:34,327 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 16:06:34,999 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 16:07:35,687 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 16:08:36,404 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 16:09:37,587 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 16:10:41,797 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 16:11:47,215 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 16:12:48,706 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 16:12:49,635 - ERROR - News fetch error: can only concatenate str (not "NoneType") to str
+2024-12-16 16:13:17,676 - ERROR - Post creation error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+2024-12-16 16:13:50,764 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 16:14:52,113 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 16:15:52,800 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 16:16:53,506 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 16:53:25,614 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 16:53:26,985 - ERROR - Post creation error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+2024-12-16 16:53:27,080 - ERROR - Post creation error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+2024-12-16 20:12:36,231 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 20:13:37,379 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 20:14:38,064 - ERROR - Error fetching notifications: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/app.bsky.notification.listNotifications?limit=20
+2024-12-16 20:15:20,074 - INFO - Authenticated with Bluesky
+2024-12-16 20:15:21,516 - ERROR - News fetch error: can only concatenate str (not "NoneType") to str
+2024-12-16 20:15:37,818 - INFO - Shutting down...
+2024-12-16 20:15:46,771 - INFO - Authenticated with Bluesky
+2024-12-16 20:15:48,953 - ERROR - News fetch error: can only concatenate str (not "NoneType") to str
+2024-12-21 15:59:45,396 - INFO - Authenticated with Bluesky
+2024-12-21 15:59:50,723 - INFO - Authenticated with Bluesky
+2024-12-21 16:02:06,209 - ERROR - Error fetching notifications: HTTPSConnectionPool(host='bsky.social', port=443): Max retries exceeded with url: /xrpc/app.bsky.notification.listNotifications?limit=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FE6A5ADE80>: Failed to resolve 'bsky.social' ([Errno 11001] getaddrinfo failed)"))
+2024-12-21 16:06:27,832 - ERROR - Error fetching notifications: ('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))
+2024-12-21 16:07:17,365 - INFO - Shutting down...
+2024-12-21 16:07:22,371 - INFO - Shutting down...
+2024-12-21 16:07:32,387 - INFO - Cleanup complete
+2024-12-21 16:07:32,389 - INFO - Shutting down bot...
+2024-12-21 16:07:37,402 - INFO - Bot shutdown complete
+2024-12-21 16:07:37,458 - INFO - Cleanup complete. Bot shutting down.
+2024-12-21 16:28:34,756 - INFO - Authenticated with Bluesky
+2024-12-21 17:17:37,403 - ERROR - Error fetching notifications: HTTPSConnectionPool(host='bsky.social', port=443): Max retries exceeded with url: /xrpc/app.bsky.notification.listNotifications?limit=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000013BFA3AA2A0>: Failed to resolve 'bsky.social' ([Errno 11002] getaddrinfo failed)"))
+2024-12-23 14:07:07,771 - INFO - Authenticated with Bluesky
+2024-12-23 18:09:27,692 - INFO - Shutting down bot...
+2024-12-23 18:09:27,692 - INFO - Bot shutdown complete
+2024-12-23 18:09:27,692 - INFO - Cleanup complete. Bot shutting down.
+2024-12-24 22:31:13,143 - INFO - Authenticated with Bluesky
+2024-12-24 22:31:14,368 - ERROR - News fetch error: can only concatenate str (not "NoneType") to str
+2024-12-24 22:31:45,400 - INFO - Shutting down...
+2024-12-24 22:32:00,434 - INFO - Cleanup complete
+2024-12-24 22:32:00,437 - INFO - Shutting down bot...
+2024-12-24 22:32:18,564 - INFO - Authenticated with Bluesky
+2024-12-24 22:32:20,556 - ERROR - News fetch error: can only concatenate str (not "NoneType") to str
+2024-12-24 22:36:56,220 - INFO - Shutting down...
+2024-12-24 22:37:11,250 - INFO - Cleanup complete
+2024-12-24 22:37:11,250 - INFO - Shutting down bot...
+2024-12-24 22:37:21,867 - INFO - Authenticated with Bluesky
+2024-12-24 22:37:24,649 - ERROR - News fetch error: can only concatenate str (not "NoneType") to str
+2025-01-11 23:50:47,843 - INFO - Authenticated with Bluesky
+2025-01-11 23:50:49,694 - ERROR - News fetch error: can only concatenate str (not "NoneType") to str
+2025-01-11 23:50:50,111 - ERROR - Post generation error: 429 Quota exceeded for quota metric 'Generate Content API requests per minute' and limit 'GenerateContent request limit per minute for a region' of service 'generativelanguage.googleapis.com' for consumer 'project_number:393270087472'. [reason: "RATE_LIMIT_EXCEEDED"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+metadata {
+  key: "quota_metric"
+  value: "generativelanguage.googleapis.com/generate_content_requests"
+}
+metadata {
+  key: "quota_location"
+  value: "us-west4"
+}
+metadata {
+  key: "quota_limit"
+  value: "GenerateContentRequestsPerMinutePerProjectPerRegion"
+}
+metadata {
+  key: "quota_limit_value"
+  value: "0"
+}
+metadata {
+  key: "consumer"
+  value: "projects/393270087472"
+}
+, links {
+  description: "Request a higher quota limit."
+  url: "https://cloud.google.com/docs/quotas/help/request_increase"
+}
+]
+2025-01-11 23:51:01,078 - INFO - Shutting down...
+2025-01-11 23:51:16,123 - INFO - Cleanup complete
+2025-01-11 23:51:16,124 - INFO - Shutting down bot...
+2025-01-11 23:51:31,209 - INFO - Bot shutdown complete
+2025-01-11 23:51:31,209 - INFO - Cleanup complete. Bot shutting down.
+2025-01-13 13:27:08,027 - INFO - Authenticated with Bluesky
+2025-01-13 13:27:09,182 - ERROR - News fetch error: can only concatenate str (not "NoneType") to str
+2025-01-13 13:27:10,096 - ERROR - Post generation error: 429 Quota exceeded for quota metric 'Generate Content API requests per minute' and limit 'GenerateContent request limit per minute for a region' of service 'generativelanguage.googleapis.com' for consumer 'project_number:744048636378'. [reason: "RATE_LIMIT_EXCEEDED"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+metadata {
+  key: "quota_metric"
+  value: "generativelanguage.googleapis.com/generate_content_requests"
+}
+metadata {
+  key: "quota_location"
+  value: "us-west4"
+}
+metadata {
+  key: "quota_limit"
+  value: "GenerateContentRequestsPerMinutePerProjectPerRegion"
+}
+metadata {
+  key: "quota_limit_value"
+  value: "0"
+}
+metadata {
+  key: "consumer"
+  value: "projects/744048636378"
+}
+, links {
+  description: "Request a higher quota limit."
+  url: "https://cloud.google.com/docs/quotas/help/request_increase"
+}
+]
+2025-01-13 13:28:13,181 - INFO - Shutting down...
+2025-01-13 13:28:23,186 - INFO - Shutting down...
+2025-01-13 13:28:34,438 - INFO - Authenticated with Bluesky
+2025-01-13 13:28:35,641 - ERROR - News fetch error: can only concatenate str (not "NoneType") to str
+2025-01-13 13:30:24,170 - INFO - Shutting down...
+2025-01-13 13:30:29,183 - INFO - Shutting down...
+2025-01-13 13:30:39,201 - INFO - Cleanup complete
+2025-01-13 13:30:39,202 - INFO - Shutting down bot...
+2025-01-13 13:30:44,216 - INFO - Bot shutdown complete
+2025-01-13 13:30:44,216 - INFO - Cleanup complete. Bot shutting down.
+2025-01-13 15:20:11,432 - ERROR - Authentication failed: 401 Client Error: Unauthorized for url: https://bsky.social/xrpc/com.atproto.server.createSession
+2025-01-13 15:20:11,432 - ERROR - Bot error: 401 Client Error: Unauthorized for url: https://bsky.social/xrpc/com.atproto.server.createSession
+2025-01-13 15:20:11,432 - INFO - Shutting down bot...
+2025-01-13 15:20:11,432 - INFO - Bot shutdown complete
+2025-01-13 15:20:11,432 - INFO - Cleanup complete. Bot shutting down.
+2025-01-13 15:21:22,962 - INFO - Authenticated with Bluesky
+2025-01-13 15:21:25,062 - ERROR - News fetch error: can only concatenate str (not "NoneType") to str
+2025-01-13 15:21:46,659 - INFO - Authenticated with Bluesky
+2025-01-13 15:21:48,513 - ERROR - News fetch error: can only concatenate str (not "NoneType") to str
+2025-01-18 14:40:10,549 - ERROR - Authentication failed: 401 Client Error: Unauthorized for url: https://bsky.social/xrpc/com.atproto.server.createSession
+2025-01-18 14:40:10,549 - ERROR - Bot error: 401 Client Error: Unauthorized for url: https://bsky.social/xrpc/com.atproto.server.createSession
+2025-01-18 14:40:10,549 - INFO - Shutting down bot...
+2025-01-18 14:40:10,549 - INFO - Bot shutdown complete
+2025-01-18 14:40:10,549 - INFO - Cleanup complete. Bot shutting down.
